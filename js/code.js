@@ -7,8 +7,13 @@ document.querySelector("#mergeButton").addEventListener('click', function() {
 
     var parr1 = pm.promptToObjectArray(prompt1);
     console.log(parr1);
+    parr1 = console.log(pm.processTagArray(parr1))
+    console.log(parr1);
 
     document.querySelector("#textarea3").value = JSON.stringify(parr1);
     //Update size - This isn't currently working?
-    M.textareaAutoResize(document.querySelector("#textarea1"));
+    window.M.textareaAutoResize(document.querySelector("#textarea1"));
+
+
+
 })

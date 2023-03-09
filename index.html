@@ -45,9 +45,8 @@
                         <div class="row">
                             <div class="input-field col s4">
                                 <select>
-                                    <option value="1" default>First Occurance</option>
-                                    <option value="2">Last Occurance</option>
-                                    <option value="3">Keep all (No dedupe)</option>
+                                    <option value="1">Keep all (No dedupe)</option>
+                                    <option value="2">Remove Duplicates</option>
                                 </select>
                                 <label>Deduplicate Ordering</label>
                             </div>
@@ -55,16 +54,17 @@
                                 <select>
                                     <option value="1" default>Sum all levels</option>
                                     <option value="2">Use maximum level</option>
-                                    <option value="3">Average levels</option>
+                                    <option value="3">Use minimum level</option>
+                                    <option value="4">Average levels</option>
                                 </select>
-                                <label>Emphasis / Deemphasis Handling</label>
+                                <label>Duplicate Emphasis / Deemphasis Handling</label>
                             </div>
                             <div class="input-field col s4">
                                 <select>
                                     <option value="0">Remove None</option>
-                                    <option value="1">Remove both</option>
-                                    <option value="2" default>Remove from negative</option>
-                                    <option value="3">Remove from positive</option>
+                                    <option value="1">Remove from positive</option>
+                                    <option value="2">Remove from negative</option>
+                                    <option value="3">Remove both</option>
                                 </select>
                                 <label>Tags in prompt and negative</label>
                             </div>
